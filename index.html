@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title> My first plain html5 game</title>
+   <style>
+   canvas{
+     display: block;
+     margin: 0 auto;
+   }
+   #player, #bg, #playerf2,#playerf3{
+     display: none;
+   }
+   </style>
+ </head>
+<body>
+  <img id="bg" src="http://wallpapercave.com/wp/bzPokrC.jpg">
+   <img id= "trump" src="donald-trumpf1.png" />
+   <img id= "player" src="kratosf1.png" />
+   <img id= "playerf2" src="kratosf2.png" />
+   <img id= "playerf3" src="kratosf3.png" />
+   <canvas id="canvas"></canvas>
+   <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+   <script src="enemy.js"></script>
+   <script src="main.js"></script>
+</body>
+</html>
